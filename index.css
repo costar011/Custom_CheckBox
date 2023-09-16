@@ -37,3 +37,15 @@ body {
     -webkit-appearance: none;
     position: absolute;
 }
+
+.inputBox label {
+    font-size: 2.8rem;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-10px, -12px);
+    transition: transform .4s;
+}
+
+.inputBox input:checked ~ label {
+    transform: translate(50px , -12px);
+}
